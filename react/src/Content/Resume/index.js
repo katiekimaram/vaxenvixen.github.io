@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { fas, faEnvelope, faMobileScreenButton, faLocationDot, faGlobe} from '@fortawesome/free-solid-svg-icons';
 import { fab, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 // import 'font-awesome/css/font-awesome.min.css';
-import './resume.scss';
+import './index.scss';
 
 const Resume = () => (
     <div>
@@ -17,6 +17,12 @@ const Resume = () => (
             <div><FontAwesomeIcon icon={faGithub} /> github.com/vaxenvixen</div>
             <div><FontAwesomeIcon icon={faGlobe} /> katiekim.dev</div>
 
+            <a href="/about">About</a>
+            <a href="/portfolio">Portfolio</a>
+            <a href="/resume">Resume</a>
+            <a href="/contact">Contact</a>
+            <a href="/blog">Blog</a>
+
             <a href="#skill">Skills</a>
             <a href="#experience">Experience</a>
             <a href="#projects">Projects</a>
@@ -25,10 +31,23 @@ const Resume = () => (
         </div>
 
         <div id="resume_content">
-            Aram Katie Kim
-            Full Stack Engineer
+            <div class="about">
+                <h2><span>Aram</span> Katie Kim</h2>
+                <h3>Full Stack Engineer</h3>
 
-            Full stack engineer with proven ability to collaborate effectively with senior developers. Working closely with team members to ensure workloads are effectively redirected to bottlenecks and personally taking on additional responsibilities when necessary. With a passion for both personal and software development growth. Continuing to take time to spend countless hours on free and paid coding resources, and attending a coding bootcamps to sharpen, hone, and learn new languages. Ready to apply my passion for coding to a talented engineering team and develop quality solutions.
+                <p class="description">
+                    Full stack engineer with proven ability to collaborate effectively with senior developers. Working closely with team members to ensure workloads are effectively redirected to bottlenecks and personally taking on additional responsibilities when necessary. With a passion for both personal and software development growth. Continuing to take time to spend countless hours on free and paid coding resources, and attending a coding bootcamps to sharpen, hone, and learn new languages. Ready to apply my passion for coding to a talented engineering team and develop quality solutions.
+                </p>
+            </div>
+
+            <div class="experience">
+
+            </div>
+
+            <div class="projects">
+
+            </div>
+
         </div>
     </div>
 );

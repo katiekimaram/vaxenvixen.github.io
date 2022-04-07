@@ -1,0 +1,21 @@
+{
+    "employer": "Blizzard Entertainment",
+    "role": [{
+        "role": "Internal Technical Consultant",
+        "time": "January 2015 - February 2021",
+        "tasks": ["Creating resources utilizing HTML, CSS, and jQuery on Salesforce and Confluence.",
+            "Utilizing JIRA to communicate and track known issues.",
+            "Managing online forums and media for technical issues: gathering information to diagnose mass issues needed for other departments for diagnosis,  communicating known issues, creating guides and announcements, moderating and gathering feedback to forward to appropriate teams.",
+            "Providing assistance and guidance to others with technical concerns or issues.",
+            "Advising and providing information to other departments with diagnosis or prognosis for improvements on technical issues."]
+    },{
+        "role": "Point of Contact",
+        "time": "August 2017 - February 2021",
+        "tasks": ["Taking escalations from other departments for high-priority issues.",
+            "Maintaining higher expectations and guiding others.",
+            "Mentoring and providing feedback to team members and other departments.",
+            "Introducing and guiding new training groups in other departments.",
+            "Managing and leading multiple projects involving internal tools, knowledge base, and training."]
+        }],
+        "location": "Austin, TX"
+}
